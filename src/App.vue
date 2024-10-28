@@ -6,7 +6,7 @@ import { ref } from 'vue';
 const test = ref('');
 
 function move() {
-  location.href='http://' + test.value + '.shop/health';
+  location.href='https://' + test.value + '.shop/health';
 }
 </script>
 
